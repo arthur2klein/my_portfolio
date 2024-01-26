@@ -1,0 +1,39 @@
+.fill-space {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column > * {
+  flex-grow: 1;
+}
+
+.three-per-row > * {
+  min-width: 33.33%;
+}
+
+.icon {
+}
+
+.icon-moi {
+}
+
+.icon-comp {
+}
+
+.icon-expe {
+}
+
+.icon-proj {
+}
+
+.icon-pass {
+}
+
+.icon-cont {
+}
