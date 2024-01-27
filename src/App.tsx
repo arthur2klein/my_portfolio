@@ -1,16 +1,16 @@
 import { Redirect, Route } from 'react-router-dom';
 import {
   IonApp,
-  IonIcon,
   IonLabel,
   IonRouterOutlet,
   IonTabBar,
   IonTabButton,
   IonTabs,
+  IonIcon,
   setupIonicReact
 } from '@ionic/react';
+import { arrowBackCircleOutline, ellipse } from 'ionicons/icons';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse } from 'ionicons/icons';
 import TabAccueil from './pages/TabAccueil';
 import TabMoi from './pages/TabMoi';
 import TabCompetences from './pages/TabCompetences';
@@ -37,6 +37,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import './style.css';
 
 setupIonicReact();
 
@@ -45,57 +46,51 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/tab-accu">
+          <Route exact path="/my_portfolio/tab-accu">
             <TabAccueil />
           </Route>
-          <Route exact path="/tab-moi">
-            <TabMoi />
+          <TabMoi />
+          <Route exact path="/my_portfolio/tab-moi">
           </Route>
-          <Route exact path="/tab-comp">
+          <Route exact path="/my_portfolio/tab-comp">
             <TabCompetences />
           </Route>
-          <Route exact path="/tab-expe">
+          <Route exact path="/my_portfolio/tab-expe">
             <TabExperience />
           </Route>
-          <Route exact path="/tab-proj">
+          <Route exact path="/my_portfolio/tab-proj">
             <TabProjets />
           </Route>
-          <Route exact path="/tab-pass">
+          <Route exact path="/my_portfolio/tab-pass">
             <TabPassions />
           </Route>
-          <Route exact path="/tab-cont">
+          <Route exact path="/my_portfolio/tab-cont">
             <TabContact />
           </Route>
-          <Route exact path="/my_portfolio">
-            <Redirect to="/tab-accu" />
-          </Route>
-          <Route exact path="/">
-            <Redirect to="/tab-accu" />
+          <Route exact path="/my_portfolio/">
+            <Redirect to="/my_portfolio/tab-accu" />
           </Route>
         </IonRouterOutlet>
-        <IonTabBar slot="bottom">
-          <IonTabButton tab="TabMoi" href="/tab-moi">
-            <IonIcon aria-hidden="true" icon={ellipse} />
+        <IonTabBar slot="bottom" >
+          <IonTabButton tab="TabMoi" href="/my_portfolio/tab-moi">
+            <IonIcon name={arrowBackCircleOutline} />
+          </IonTabButton>
+          <IonTabButton tab="TabMoi" href="/my_portfolio/tab-moi">
             <IonLabel>Moi</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabCompetences" href="/tab-comp">
-            <IonIcon aria-hidden="true" icon={ellipse} />
+          <IonTabButton tab="TabCompetences" href="/my_portfolio/tab-comp">
             <IonLabel>Mes Compétences</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabExperience" href="/tab-expe">
-            <IonIcon aria-hidden="true" icon={ellipse} />
+          <IonTabButton tab="TabExperience" href="/my_portfolio/tab-expe">
             <IonLabel>Mon Expérience</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabProjets" href="/tab-proj">
-            <IonIcon aria-hidden="true" icon={ellipse} />
+          <IonTabButton tab="TabProjets" href="/my_portfolio/tab-proj">
             <IonLabel>Mes Projets</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabPassions" href="/tab-pass">
-            <IonIcon aria-hidden="true" icon={ellipse} />
+          <IonTabButton tab="TabPassions" href="/my_portfolio/tab-pass">
             <IonLabel>Mes Passions</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabContact" href="/tab-cont">
-            <IonIcon aria-hidden="true" icon={ellipse} />
+          <IonTabButton tab="TabContact" href="/my_portfolio/tab-cont">
             <IonLabel>Me Contacter</IonLabel>
           </IonTabButton>
         </IonTabBar>

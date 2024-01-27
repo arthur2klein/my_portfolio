@@ -1,5 +1,5 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import CompetencesWeb from '../components/competences/CompetencesWeb';
 import './TabCompetences.css';
 
 const TabCompetences: React.FC = () => {
@@ -16,7 +16,7 @@ const TabCompetences: React.FC = () => {
             <IonTitle size="large">Mes Competences</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Mes Competences" />
+        <CompetencesWeb />
       </IonContent>
     </IonPage>
   );
