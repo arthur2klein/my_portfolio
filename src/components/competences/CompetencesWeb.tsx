@@ -1,4 +1,4 @@
-import './CompetencesWeb.css';
+import './Competences.css';
 
 const CompetencesWeb: React.FC = () => {
   return (

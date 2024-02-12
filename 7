@@ -24,10 +24,6 @@ ul {
   max-width: 50%;;
 }
 
-.container > h1 {
-  margin-bottom: -0.5em;
-}
-
 
 .line {
   display: flex;
@@ -59,24 +55,23 @@ ul {
 .swiper-pagination {
   background: var(--ion-background-color);
   opacity: 0.8;
-  font-family: monospace;
-  font-size: 1.2em;
 }
 
-.swiper-vertical {
-  .swiper-button-next,
-  .swiper-button-prev {
+.swiper-container-vertical .swiper-button-next, .swiper-container-vertical .swiper-button-prev
+   {
     left: 50%;
     transform: rotate(90deg);
     transform-origin: left center;
   }
 
+.swiper-container-vertical 
   .swiper-button-prev {
-    top: 1em;
+    top: 10px;
   }
 
+.swiper-container-vertical 
   .swiper-button-next {
     top: auto;
-    bottom: 1em;
+    bottom: 10px;
   }
 }

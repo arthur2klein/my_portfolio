@@ -1,0 +1,18 @@
+.fill-space {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .if-wide {
+    display: none !important;
+  }
+
+}
+
+@media (min-width: 480px) {
+  .if-not-wide {
+    display: none !important;
+  }
+}

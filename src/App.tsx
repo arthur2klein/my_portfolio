@@ -9,7 +9,7 @@ import {
   IonIcon,
   setupIonicReact
 } from '@ionic/react';
-import { arrowBackCircleOutline, ellipse } from 'ionicons/icons';
+import { arrowBackCircleOutline } from 'ionicons/icons';
 import { IonReactRouter } from '@ionic/react-router';
 import TabAccueil from './pages/TabAccueil';
 import TabMoi from './pages/TabMoi';
@@ -67,30 +67,34 @@ const App: React.FC = () => (
           <Route exact path="/my_portfolio/tab-cont">
             <TabContact />
           </Route>
-          <Route exact path="/my_portfolio/">
+          <Route exact path="/my_portfolio">
+            <Redirect to="/my_portfolio/tab-accu" />
+          </Route>
+          <Route exact path="/">
             <Redirect to="/my_portfolio/tab-accu" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom" >
-          <IonTabButton tab="TabMoi" href="/my_portfolio/tab-moi">
-            <IonIcon name={arrowBackCircleOutline} />
+          <IonTabButton tab="TabAccueil" href="/my_portfolio/tab-accu">
+            <IonIcon icon={arrowBackCircleOutline} />
+            <IonLabel className="if-not-wide">Sommaire</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabMoi" href="/my_portfolio/tab-moi">
+          <IonTabButton className="if-wide" tab="TabMoi" href="/my_portfolio/tab-moi">
             <IonLabel>Moi</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabCompetences" href="/my_portfolio/tab-comp">
+          <IonTabButton className="if-wide" tab="TabCompetences" href="/my_portfolio/tab-comp">
             <IonLabel>Mes Compétences</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabExperience" href="/my_portfolio/tab-expe">
+          <IonTabButton className="if-wide" tab="TabExperience" href="/my_portfolio/tab-expe">
             <IonLabel>Mon Expérience</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabProjets" href="/my_portfolio/tab-proj">
+          <IonTabButton className="if-wide" tab="TabProjets" href="/my_portfolio/tab-proj">
             <IonLabel>Mes Projets</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabPassions" href="/my_portfolio/tab-pass">
+          <IonTabButton className="if-wide" tab="TabPassions" href="/my_portfolio/tab-pass">
             <IonLabel>Mes Passions</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="TabContact" href="/my_portfolio/tab-cont">
+          <IonTabButton className="if-wide" tab="TabContact" href="/my_portfolio/tab-cont">
             <IonLabel>Me Contacter</IonLabel>
           </IonTabButton>
         </IonTabBar>

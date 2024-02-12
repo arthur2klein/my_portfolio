@@ -14,7 +14,19 @@
 }
 
 .three-per-row > * {
-  min-width: 33.33%;
+  min-width: 100%;
+}
+
+@media (min-aspect-ratio: 9/16) {
+  .three-per-row > * {
+    min-width: 50%;
+  }
+}
+
+@media (min-aspect-ratio: 1/1) {
+  .three-per-row > * {
+    min-width: 33.33%;
+  }
 }
 
 .icon {
