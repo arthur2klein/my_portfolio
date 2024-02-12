@@ -13,8 +13,11 @@ import '@ionic/react/css/ionic-swiper.css';
 import ExperienceLycee from '../components/experience/ExperienceLycee';
 import ExperiencePrepa from '../components/experience/ExperiencePrepa';
 import ExperienceCyTech from '../components/experience/ExperienceCyTech';
+import ExperienceKarnten from '../components/experience/ExperienceKarnten';
+import ExperienceTotal from '../components/experience/ExperienceTotal';
 
 const TabExperience: React.FC = () => {
+  const type_exp = ['Stages', 'Études']
 
   return (
       <IonPage>
@@ -23,7 +26,7 @@ const TabExperience: React.FC = () => {
             <IonTitle>Mon Experience</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonContent fullscreen>
+        <IonContent id="exp" fullscreen>
           <IonHeader collapse="condense">
             <IonToolbar>
               <IonTitle size="large">Mes Experience</IonTitle>
@@ -32,24 +35,55 @@ const TabExperience: React.FC = () => {
           <Swiper 
             slidesPerView={'auto'}
             spaceBetween={200}
-            direction={'vertical'}
-            modules={[FreeMode, Scrollbar, Keyboard, Pagination, Mousewheel, Navigation]}
-            mousewheel={true}
-            freeMode={{enabled: true, sticky: true}}
-            scrollbar={true}
+            modules={[Keyboard, Pagination]}
             loop={true}
             keyboard={true}
-            navigation={true}
             pagination={{
               clickable: true,
               renderBullet: function (index, className) {
-                return '<span class="' + className + '">' + index + '</span>';
+                return '<span class="' + className + '">' + type_exp[index] + '</span>';
               },
             }}
           >
-            <SwiperSlide><ExperienceCyTech /></SwiperSlide>
-            <SwiperSlide><ExperiencePrepa /></SwiperSlide>
-            <SwiperSlide><ExperienceLycee /></SwiperSlide>
+
+            <SwiperSlide><Swiper 
+              slidesPerView={'auto'}
+              spaceBetween={200}
+              direction={'vertical'}
+              modules={[Pagination, FreeMode, Scrollbar, Keyboard, Mousewheel, Navigation]}
+              mousewheel={true}
+              pagination={{clickable: true}}
+              freeMode={{enabled: true, sticky: true}}
+              scrollbar={true}
+              loop={true}
+              keyboard={true}
+              navigation={true}
+            >
+              <SwiperSlide><ExperienceTotal /></SwiperSlide>
+              <SwiperSlide><ExperienceKarnten /></SwiperSlide>
+
+            </Swiper></SwiperSlide>
+
+            <SwiperSlide><Swiper 
+              slidesPerView={'auto'}
+              spaceBetween={200}
+              direction={'vertical'}
+              modules={[Pagination, FreeMode, Scrollbar, Keyboard, Mousewheel, Navigation]}
+              mousewheel={true}
+              pagination={{clickable: true}}
+              freeMode={{enabled: true, sticky: true}}
+              scrollbar={true}
+              loop={true}
+              keyboard={true}
+              navigation={true}
+            >
+
+              <SwiperSlide><ExperienceCyTech /></SwiperSlide>
+              <SwiperSlide><ExperiencePrepa /></SwiperSlide>
+              <SwiperSlide><ExperienceLycee /></SwiperSlide>
+
+            </Swiper></SwiperSlide>
+
           </Swiper>
         </IonContent>
       </IonPage>

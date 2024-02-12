@@ -1,7 +1,7 @@
 .experience {
   margin: 2em;
-
   text-align: left;
+  max-width: 40em;
   
   h1 {
     border-bottom: 1px solid var(--ion-text-color);
@@ -46,14 +46,23 @@ ul li:last-child::after {
 }
 
 .swiper {
+  width: 100%;
   height: 100%;
 }
 
-.swiper .swiper-pagination-bullet {
+#exp .swiper .swiper-pagination-vertical .swiper-pagination-bullet {
+  background-color: var(--ion-color-primary);
+  padding: 0.2em;
+}
+
+.swiper .swiper-pagination-horizontal .swiper-pagination-bullet {
   text-align: center;
   width: fit-content;
-  margin-top:1em !important;
-  margin-bottom: 1em !important;
+  margin-right:0.2 !important;
+  padding:0.5em !important;
+  background-color: var(--ion-card-background);
+  border-radius: 0.6em 0.6em 0 0;
+  height: fit-content;
 }
 
 .swiper-pagination {
@@ -61,6 +70,7 @@ ul li:last-child::after {
   opacity: 0.8;
   font-family: monospace;
   font-size: 1.2em;
+  text-align: right;
 }
 
 .swiper-vertical {
