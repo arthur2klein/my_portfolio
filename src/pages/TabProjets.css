@@ -1,0 +1,93 @@
+.projet {
+  margin: auto;
+  text-align: left;
+  max-width: 35em;
+  
+  h1 {
+    border-bottom: 1px solid var(--ion-text-color);
+    max-width: 20em;
+  }
+
+  h2 {
+    color: var(--ion-color-primary);
+    margin-top: 0 !important;
+    font-family: italic;
+    font-size: 1em;
+  }
+
+  #description::before {
+    content: "Missions:";
+    margin-left: -1em;
+    color: var(--ion-text-color);
+  }
+
+  #competences::before {
+    margin-left: -1em;
+    content: "Compétences:";
+    color: var(--ion-text-color);
+  }
+
+  ul {
+    text-align: left;
+    margin: 1em;
+  }
+
+  li {
+    list-style-type: "- ";
+  }
+}
+
+ul li:not(:last-child)::after {
+  content: ",";
+}
+
+ul li:last-child::after {
+  content: ".";
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#projets .swiper .swiper-pagination-vertical .swiper-pagination-bullet {
+  background-color: var(--ion-color-primary);
+  padding: 0.2em;
+  aspect-ratio: 1;
+}
+
+.swiper .swiper-pagination-horizontal .swiper-pagination-bullet {
+  text-align: center;
+  width: fit-content;
+  margin-right:0.2 !important;
+  padding:0.5em !important;
+  background-color: var(--ion-card-background);
+  border-radius: 0.6em 0.6em 0 0;
+  height: fit-content;
+}
+
+.swiper-pagination {
+  background: var(--ion-background-color);
+  opacity: 0.8;
+  font-family: monospace;
+  font-size: 1.2em;
+  text-align: right;
+}
+
+.swiper-vertical {
+  .swiper-button-next,
+  .swiper-button-prev {
+    left: 50%;
+    transform: rotate(90deg);
+    transform-origin: left center;
+  }
+
+  .swiper-button-prev {
+    top: 1em;
+  }
+
+  .swiper-button-next {
+    top: auto;
+    bottom: 1em;
+  }
+}

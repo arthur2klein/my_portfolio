@@ -2,7 +2,7 @@
   margin: 2em;
   text-align: left;
   max-width: 40em;
-  
+
   h1 {
     border-bottom: 1px solid var(--ion-text-color);
     max-width: 20em;
@@ -53,6 +53,7 @@ ul li:last-child::after {
 #exp .swiper .swiper-pagination-vertical .swiper-pagination-bullet {
   background-color: var(--ion-color-primary);
   padding: 0.2em;
+  aspect-ratio: 1/1;
 }
 
 .swiper .swiper-pagination-horizontal .swiper-pagination-bullet {

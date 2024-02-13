@@ -10,8 +10,8 @@
     "test.e2e": "cypress run",
     "test.unit": "vitest",
     "lint": "eslint",
-    "predeploy": "npm run build",
-    "deploy": "ionic build --prod && gh-pages -d dist"
+    "predeploy": "npm run build && ionic build --prod",
+    "deploy": "cp ./dist/index.html ./dist/404.html && gh-pages -d dist"
   },
   "dependencies": {
     "@capacitor/app": "5.0.6",
