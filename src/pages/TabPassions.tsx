@@ -1,8 +1,14 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import './TabPassions.css';
+import {Swiper, SwiperSlide} from 'swiper/react';
+import {Keyboard, Pagination} from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/keyboard';
+import 'swiper/css/pagination';
+import '@ionic/react/css/ionic-swiper.css';
 
 const TabPassions: React.FC = () => {
+  const passions = ['musique', 'cuisine']
   return (
     <IonPage>
       <IonHeader>
@@ -16,7 +22,22 @@ const TabPassions: React.FC = () => {
             <IonTitle size="large">Mes Passions</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Mes Passions" />
+        <Swiper 
+          slidesPerView={'auto'}
+          spaceBetween={200}
+          modules={[Keyboard, Pagination]}
+          loop={true}
+          keyboard={true}
+          pagination={{
+            clickable: true,
+            renderBullet: function (index, className) {
+              return '<span class="' + className + '">' + passions[index] + '</span>';
+            },
+          }}
+        >
+          <SwiperSlide> Musique </SwiperSlide>
+          <SwiperSlide> Cuisine </SwiperSlide>
+        </Swiper>
       </IonContent>
     </IonPage>
   );

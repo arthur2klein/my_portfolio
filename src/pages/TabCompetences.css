@@ -45,7 +45,7 @@ ul {
   margin: 1vw;
 }
 
-@media (max-width: 250px) {
+@media (max-width: 400px) {
   .line {
     flex-direction: column;
     text-align: center;
@@ -53,6 +53,7 @@ ul {
 
   .line > * {
     margin: auto;
+    min-width: 80%;
   }
 
   .domain {

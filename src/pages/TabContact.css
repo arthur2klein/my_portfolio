@@ -1,0 +1,7 @@
+.email::before {
+    content: 'arthur2klein';
+}
+
+.email::after {
+    content: 'proton.me';
+}

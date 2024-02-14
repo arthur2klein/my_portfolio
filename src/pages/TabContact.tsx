@@ -1,6 +1,6 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonContent, IonHeader, IonLabel, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import './TabContact.css';
+import ContactComponent from '../components/ContactComponent';
 
 const TabContact: React.FC = () => {
   return (
@@ -16,7 +16,9 @@ const TabContact: React.FC = () => {
             <IonTitle size="large">Me Contacter</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Me Contacter" />
+        <div className="container">
+          <ContactComponent />
+        </div>
       </IonContent>
     </IonPage>
   );

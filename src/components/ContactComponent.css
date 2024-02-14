@@ -1,0 +1,12 @@
+.contact {
+  border: 1px solid var(--ion-color-primary);
+  border-radius: 1rem;
+  width: fit-content;
+  margin: auto;
+  padding: 1rem;
+
+  h2 {
+    font-size: 1.3rem;
+    margin: 0.4rem !important;
+  }
+}

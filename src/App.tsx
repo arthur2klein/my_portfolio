@@ -51,6 +51,7 @@ const App: React.FC = () => (
           </Route>
           <TabMoi />
           <Route exact path="/my_portfolio/tab-moi">
+            <TabMoi />
           </Route>
           <Route exact path="/my_portfolio/tab-comp">
             <TabCompetences />
