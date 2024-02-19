@@ -2,6 +2,7 @@
   margin: auto;
   text-align: left;
   max-width: 35em;
+  padding: 0.5rem;
   
   h1 {
     border-bottom: 1px solid var(--ion-text-color);

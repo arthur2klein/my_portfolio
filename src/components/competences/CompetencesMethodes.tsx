@@ -15,6 +15,8 @@ const CompetencesMéthodes: React.FC = () => {
             <li>Github actions</li>
             <li>Docker</li>
             <li>Kubernetes</li>
+            <li>Jenkins</li>
+            <li>Terraform</li>
           </ul>
         </div>
 

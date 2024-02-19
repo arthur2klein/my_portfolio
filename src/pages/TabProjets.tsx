@@ -2,10 +2,9 @@ import './TabProjets.css';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Keyboard, Scrollbar, Mousewheel, Pagination, Navigation, FreeMode } from 'swiper/modules';
+import { Keyboard, Scrollbar, Mousewheel, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/keyboard';
-import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
@@ -38,10 +37,9 @@ const TabProjets: React.FC = () => {
             slidesPerView={'auto'}
             spaceBetween={200}
             direction={'vertical'}
-            modules={[Pagination, FreeMode, Scrollbar, Keyboard, Mousewheel, Navigation]}
+            modules={[Pagination, Scrollbar, Keyboard, Mousewheel, Navigation]}
             mousewheel={true}
             pagination={{clickable: true}}
-            freeMode={{enabled: true, sticky: true}}
             scrollbar={true}
             loop={true}
             keyboard={true}

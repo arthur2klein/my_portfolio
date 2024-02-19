@@ -35,8 +35,16 @@ const TabPassions: React.FC = () => {
             },
           }}
         >
-          <SwiperSlide> Musique </SwiperSlide>
-          <SwiperSlide> Cuisine </SwiperSlide>
+          <SwiperSlide> 
+            <div className="placeholder">
+              <h1>Cet onglet présentera mon expérience en terme de cuisine.</h1>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide> 
+            <div className="placeholder">
+              <h1>Cet onglet présentera ma passion pour la musique et ce qu'elle a pu m'apporter.</h1>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </IonContent>
     </IonPage>

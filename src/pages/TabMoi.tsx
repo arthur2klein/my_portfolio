@@ -16,7 +16,9 @@ const TabMoi: React.FC = () => {
             <IonTitle size="large">Moi</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Moi" />
+        <div className="placeholder">
+          <h1>Cette page me présentera briévement à travers mon expérience et mes objectifs.</h1>
+        </div>
       </IonContent>
     </IonPage>
   );

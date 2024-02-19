@@ -16,9 +16,7 @@ const TabContact: React.FC = () => {
             <IonTitle size="large">Me Contacter</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <div className="container">
-          <ContactComponent />
-        </div>
+        <ContactComponent />
       </IonContent>
     </IonPage>
   );
