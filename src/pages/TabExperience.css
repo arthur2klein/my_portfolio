@@ -49,14 +49,19 @@ ul li:last-child::after {
   aspect-ratio: 1/1;
 }
 
-.swiper .swiper-pagination-horizontal .swiper-pagination-bullet {
-  text-align: center;
-  width: fit-content;
-  margin-right:0.2 !important;
-  padding:0.5em !important;
-  background-color: var(--ion-card-background);
-  border-radius: 0.6em 0.6em 0 0;
-  height: fit-content;
+.swiper .swiper-pagination-horizontal {
+  width: fit-content !important;
+  right: 0;
+  left: auto;
+  & .swiper-pagination-bullet {
+    text-align: center;
+    width: fit-content;
+    margin-right:0.2 !important;
+    padding:0.5em !important;
+    background-color: var(--ion-card-background);
+    border-radius: 0.6em 0.6em 0 0;
+    height: fit-content;
+  }
 }
 
 .swiper-pagination {
