@@ -28,3 +28,7 @@
     min-width: 33.33%;
   }
 }
+
+.button-acc {
+  --background: linear-gradient(170deg, var(--ion-color-primary) 10%, var(--ion-background-color));
+}

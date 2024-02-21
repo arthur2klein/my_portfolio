@@ -26,7 +26,7 @@
 }
 
 html {
-  font-size: calc(max(16px + 0.01 * (100vh - 900px), 10px));
+  font-size: calc(max(16px + 0.01 * (100vh - 800px), 10px));
 }
 
 .placeholder {
