@@ -37,3 +37,7 @@ html {
   justify-content: center;
   text-align: center;
 }
+
+:root {
+  color-scheme: only dark;
+}
