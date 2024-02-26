@@ -17,6 +17,7 @@ import ProjetIA from '../components/projets/ProjetIA';
 import ProjetJEE from '../components/projets/ProjetJEE';
 import ProjetProgFonc from '../components/projets/ProjetCloudFront';
 import ProjetPFE from '../components/projets/ProjetPFE';
+import ProjetRecommendations from '../components/projets/ProjetRecommendation';
 
 const TabProjets: React.FC = () => {
 
@@ -47,6 +48,7 @@ const TabProjets: React.FC = () => {
           >
           
             <SwiperSlide><ProjetPFE /></SwiperSlide>
+            <SwiperSlide><ProjetRecommendations /></SwiperSlide>
             <SwiperSlide><ProjetPortfolio /></SwiperSlide>
             <SwiperSlide><ProjetGPS /></SwiperSlide>
             <SwiperSlide><ProjetCloudFront /></SwiperSlide>
