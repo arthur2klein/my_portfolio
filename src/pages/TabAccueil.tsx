@@ -30,12 +30,12 @@ const TabAccueil: React.FC = () => {
             <IonCol class="icon icon-proj">
               <IonButton className="fill-space button-acc" routerLink="/my_portfolio/tab-proj">Mes Projets</IonButton>
             </IonCol>
-            <IonCol class="icon icon-pass">
-              <IonButton className="fill-space button-acc" routerLink="/my_portfolio/tab-pass">Mes Passions</IonButton>
-            </IonCol>
             <IonCol class="icon icon-cont">
               <IonButton className="fill-space button-acc" routerLink="/my_portfolio/tab-cont">Me Contacter</IonButton>
             </IonCol>
+          <IonCol><div className='menu-description'><div>
+            Ingénieur en informatique passionné par l'<em>architecture de projets</em>, l'<em>intelligence artificielle</em>, et le <em>frontend</em> en recherche de <em>stage de fin de formation</em>.
+          </div></div></IonCol>
           </IonRow>
         </IonGrid>
       </IonContent>

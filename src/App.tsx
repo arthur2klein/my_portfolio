@@ -92,9 +92,6 @@ const App: React.FC = () => (
           <IonTabButton className="if-wide" tab="TabProjets" href="/my_portfolio/tab-proj">
             <IonLabel>Mes Projets</IonLabel>
           </IonTabButton>
-          <IonTabButton className="if-wide" tab="TabPassions" href="/my_portfolio/tab-pass">
-            <IonLabel>Mes Passions</IonLabel>
-          </IonTabButton>
           <IonTabButton className="if-wide" tab="TabContact" href="/my_portfolio/tab-cont">
             <IonLabel>Me Contacter</IonLabel>
           </IonTabButton>

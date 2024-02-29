@@ -20,15 +20,37 @@
 @media (min-aspect-ratio: 9/16) {
   .three-per-row > * {
     min-width: 50%;
+    max-width: 50%;
   }
 }
 
 @media (min-aspect-ratio: 1/1) {
   .three-per-row > * {
     min-width: 33.33%;
+    max-width: 33.33%;
   }
 }
 
 .button-acc {
   --background: linear-gradient(170deg, var(--ion-color-primary) 10%, var(--ion-background-color));
+}
+
+.md:has(> .menu-description) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.menu-description {
+  font-size: 0.9rem;
+  position: absolute;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.menu-description > div {
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
