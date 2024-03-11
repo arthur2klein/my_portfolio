@@ -19,7 +19,16 @@ import CompetencesCicd from '../components/competences/CompetencesCicd';
 import CompetencesDb from '../components/competences/CompetencesDb';
 
 const TabCompetences: React.FC = () => {
-  const slide_names = ['lang', 'web', 'mobi', 'bdd','cicd', 'méth', 'math', 'comm']
+  const slide_names = [
+    'langua',
+    'devweb',
+    'mobile',
+    'databa',
+    'devops',
+    'méthod',
+    'ia-sim',
+    'commun'
+  ];
 
   return (
       <IonPage>

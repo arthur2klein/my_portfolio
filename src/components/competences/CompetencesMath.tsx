@@ -4,7 +4,7 @@ const CompetencesMath: React.FC = () => {
   return (
     <div className="container">
 
-      <h1> Mathématiques et Simulation </h1>
+      <h1> IA et Simulation </h1>
       
       <div className="line">
 
