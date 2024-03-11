@@ -15,9 +15,11 @@ import CompetencesLanguages from '../components/competences/CompetencesLanguages
 import CompetencesMéthodes from '../components/competences/CompetencesMethodes';
 import CompetencesMath from '../components/competences/CompetencesMath';
 import CompetencesCommunication from '../components/competences/CompetencesCommunication';
+import CompetencesCicd from '../components/competences/CompetencesCicd';
+import CompetencesDb from '../components/competences/CompetencesDb';
 
 const TabCompetences: React.FC = () => {
-  const slide_names = ['lan', 'web', 'mob', 'mét', 'mat', 'com']
+  const slide_names = ['lang', 'web', 'mobi', 'bdd','cicd', 'méth', 'math', 'comm']
 
   return (
       <IonPage>
@@ -52,6 +54,8 @@ const TabCompetences: React.FC = () => {
             <SwiperSlide><CompetencesLanguages /></SwiperSlide>
             <SwiperSlide><CompetencesWeb /></SwiperSlide>
             <SwiperSlide><CompetencesMobile /></SwiperSlide>
+            <SwiperSlide><CompetencesDb /></SwiperSlide>
+            <SwiperSlide><CompetencesCicd /></SwiperSlide>
             <SwiperSlide><CompetencesMéthodes /></SwiperSlide>
             <SwiperSlide><CompetencesMath /></SwiperSlide>
             <SwiperSlide><CompetencesCommunication /></SwiperSlide>

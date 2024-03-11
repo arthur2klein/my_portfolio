@@ -9,19 +9,6 @@ const CompetencesMéthodes: React.FC = () => {
       <div className="line">
 
         <div className="domain">
-          <h2>CICD</h2>
-          <ul>
-            <li>Git</li>
-            <li>Github actions</li>
-            <li>Docker</li>
-            <li>Kubernetes</li>
-            <li>Jenkins</li>
-            <li>Terraform</li>
-            <li>Ansible</li>
-          </ul>
-        </div>
-
-        <div className="domain">
           <h2>Pratiques</h2>
           <ul>
             <li>Scrum</li>

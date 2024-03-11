@@ -25,17 +25,6 @@ const CompetencesWeb: React.FC = () => {
           </ul>
         </div>
 
-        <div className="domain">
-          <h2>Database</h2>
-          <ul>
-            <li>MySQL</li>
-            <li>MariaDB</li>
-            <li>MongoDB</li>
-            <li>Neo4J</li>
-            <li>Firebase</li>
-            <li>SparQL</li>
-          </ul>
-        </div>
       </div>
     </div>
   );
