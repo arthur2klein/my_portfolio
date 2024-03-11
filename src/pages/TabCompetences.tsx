@@ -20,14 +20,14 @@ import CompetencesDb from '../components/competences/CompetencesDb';
 
 const TabCompetences: React.FC = () => {
   const slide_names = [
-    'langua',
-    'devweb',
-    'mobile',
-    'databa',
-    'devops',
-    'méthod',
-    'ia-sim',
-    'commun'
+    'Langua',
+    'DevWeb',
+    'Mobile',
+    'DataBa',
+    'DevOps',
+    'Méthod',
+    'IA-Sim',
+    'Commun'
   ];
 
   return (
