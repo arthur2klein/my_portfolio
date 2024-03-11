@@ -19,8 +19,9 @@ const CompetencesWeb: React.FC = () => {
           <h2>Backend Framework</h2>
           <ul>
             <li>JEE</li>
-            <li>PHP</li>
+            <li>Laravel</li>
             <li>FastAPI</li>
+            <li>Flask</li>
           </ul>
         </div>
 

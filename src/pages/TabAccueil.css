@@ -31,6 +31,12 @@
   }
 }
 
+@media (max-width: 400px) {
+  .md:has(> .menu-description) {
+    display: none !important;
+  }
+}
+
 .button-acc {
   --background: linear-gradient(170deg, var(--ion-color-primary) 10%, var(--ion-background-color));
 }

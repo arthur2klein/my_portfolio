@@ -18,6 +18,9 @@ const TabAccueil: React.FC = () => {
         </IonHeader>
         <IonGrid class="fill-space column">
           <IonRow class="three-per-row">
+            <IonCol><div className='menu-description'><div>
+              Ingénieur en informatique passionné par le <em>DevOps</em>, l'<em>Intelligence Artificielle</em>, et le <em>Frontend</em> en recherche de <em>stage de fin de formation</em>.
+            </div></div></IonCol>
             <IonCol class="icon icon-moi">
               <IonButton className="fill-space button-acc" routerLink="/my_portfolio/tab-moi">Moi</IonButton>
             </IonCol>
@@ -33,9 +36,6 @@ const TabAccueil: React.FC = () => {
             <IonCol class="icon icon-cont">
               <IonButton className="fill-space button-acc" routerLink="/my_portfolio/tab-cont">Me Contacter</IonButton>
             </IonCol>
-          <IonCol><div className='menu-description'><div>
-            Ingénieur en informatique passionné par l'<em>architecture de projets</em>, l'<em>intelligence artificielle</em>, et le <em>frontend</em> en recherche de <em>stage de fin de formation</em>.
-          </div></div></IonCol>
           </IonRow>
         </IonGrid>
       </IonContent>
