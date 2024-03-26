@@ -41,3 +41,12 @@ html {
 :root {
   color-scheme: only dark;
 }
+
+ion-tab-bar {
+  height: 4rem;
+  --color: var(--ion-color-primary-contrast);
+}
+
+ion-label {
+  font-size: 0.9rem;
+}
