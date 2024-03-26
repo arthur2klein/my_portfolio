@@ -22,6 +22,7 @@ const CompetencesDb: React.FC = () => {
             <li>Neo4J</li>
             <li>Firebase</li>
             <li>SparQL</li>
+            <li>MongoDB</li>
           </ul>
 
         </div>

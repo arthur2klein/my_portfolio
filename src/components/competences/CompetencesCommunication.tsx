@@ -3,7 +3,7 @@ import './Competences.css';
 const CompetencesCommunication: React.FC = () => {
   return (
     <div className="container">
-      <h1> Développement Communication </h1>
+      <h1> Communication </h1>
       
       <div className="line">
         <div className="domain">
