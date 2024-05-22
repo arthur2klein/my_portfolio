@@ -10,19 +10,19 @@ const CompetencesDb: React.FC = () => {
         <div className="domain">
           <h2>SQL</h2>
           <ul>
-            <li>MySQL</li>
-            <li>MariaDB</li>
             <li>PosgreSQL</li>
+            <li>MariaDB</li>
+            <li>MySQL</li>
           </ul>
         </div>
 
         <div className="domain">
           <h2>NoSQL</h2>
           <ul>
-            <li>Neo4J</li>
-            <li>Firebase</li>
-            <li>SparQL</li>
             <li>MongoDB</li>
+            <li>Neo4J</li>
+            <li>SparQL</li>
+            <li>Firebase</li>
           </ul>
 
         </div>

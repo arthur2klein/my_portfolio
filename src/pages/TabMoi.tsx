@@ -1,5 +1,4 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import './TabMoi.css';
 
 const TabMoi: React.FC = () => {
@@ -49,15 +48,15 @@ const TabMoi: React.FC = () => {
             </div>
 
             <div className="cadre obje-moi">
-              À la suite de ma formation, je suis à la recherche d'un <em>stage
-              de fin d'étude</em>. Mon objectif est de m'investir pleinement
-              dans des projets stimulants qui mettent en lumière mes
-              compétences.  Passionné par l'apprentissage continu, je souhaite
-              exploiter cette opportunité pour <em>approfondir et diversifier
-              mes connaissances</em>. Contribuer à des projets innovants où
-              mon expertise sera valorisée est ma priorité. Si vous recherchez
-              un stagiaire dynamique, curieux et prêt à relever de nouveaux
-              défis, n'hésitez pas à me contacter.
+              À la suite de ma formation, je suis en <em>stage de fin
+              d'étude</em> et en recherche de CDI. Mon objectif est de
+              m'investir pleinement dans des projets stimulants qui mettent en
+              lumière mes compétences. Passionné par l'apprentissage continu,
+              je souhaite exploiter cette opportunité pour <em>approfondir et
+              diversifier mes connaissances</em>. Contribuer à des projets
+              innovants où mon expertise sera valorisée est ma priorité. Si
+              vous recherchez un développeur dynamique, curieux et prêt à relever
+              de nouveaux défis, n'hésitez pas à me contacter.
             </div>
 
           </div>

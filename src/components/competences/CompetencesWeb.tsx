@@ -18,8 +18,9 @@ const CompetencesWeb: React.FC = () => {
         <div className="domain">
           <h2>Backend Framework</h2>
           <ul>
-            <li>Spring</li>
             <li>Laravel</li>
+            <li>Symfony</li>
+            <li>Spring</li>
             <li>FastAPI</li>
             <li>Flask</li>
           </ul>

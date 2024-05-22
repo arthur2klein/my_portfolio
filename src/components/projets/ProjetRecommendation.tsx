@@ -3,7 +3,7 @@ import Projet from './Projet';
 const ProjetRecommendations: React.FC = () => {
   return (
     <Projet
-      nom="Recommendation de films (en cours)"
+      nom="Recommendation de films"
       contexte="Cy-Tech"
       date="Février 2024 - Mars 2024"
       description={[

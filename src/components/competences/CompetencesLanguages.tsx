@@ -14,8 +14,8 @@ const CompetencesLanguages: React.FC = () => {
             <li>Python</li>
             <li>Javascript</li>
             <li>Typescript</li>
-            <li>Java</li>
-            <li>C</li>
+            <li>PHP</li>
+            <li>Dart</li>
             <li>Commandes UNIX</li>
           </ul>
         </div>
@@ -23,7 +23,8 @@ const CompetencesLanguages: React.FC = () => {
         <div className="domain">
           <h2>Compétences Intermédiaires</h2>
           <ul>
-            <li>Dart</li>
+            <li>C</li>
+            <li>Java</li>
             <li>Kotlin</li>
             <li>C++</li>
             <li>Rust</li>
@@ -36,7 +37,6 @@ const CompetencesLanguages: React.FC = () => {
           <ul>
             <li>OCaml</li>
             <li>R</li>
-            <li>php</li>
             <li>Prolog</li>
           </ul>
         </div>

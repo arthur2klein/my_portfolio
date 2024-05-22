@@ -14,6 +14,7 @@ import ExperiencePrepa from '../components/experience/ExperiencePrepa';
 import ExperienceCyTech from '../components/experience/ExperienceCyTech';
 import ExperienceKarnten from '../components/experience/ExperienceKarnten';
 import ExperienceTotal from '../components/experience/ExperienceTotal';
+import ExperienceAQS from '../components/experience/ExperienceAQS';
 
 const TabExperience: React.FC = () => {
   const type_exp = ['Stages', 'Études']
@@ -57,6 +58,7 @@ const TabExperience: React.FC = () => {
               keyboard={true}
               navigation={true}
             >
+              <SwiperSlide><ExperienceAQS /></SwiperSlide>
               <SwiperSlide><ExperienceTotal /></SwiperSlide>
               <SwiperSlide><ExperienceKarnten /></SwiperSlide>
 
