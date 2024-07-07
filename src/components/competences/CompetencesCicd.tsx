@@ -28,16 +28,16 @@ const CompetencesCicd: React.FC = () => {
         <div className="domain">
           <h2>Gestion de Clusters</h2>
           <ul>
-            <li>Terraform</li>
             <li>Ansible</li>
+            <li>Terraform</li>
           </ul>
         </div>
 
         <div className="domain">
           <h2>Pipeline</h2>
           <ul>
-            <li>Github actions</li>
             <li>Gilab CI</li>
+            <li>Github actions</li>
             <li>Jenkins</li>
           </ul>
         </div>

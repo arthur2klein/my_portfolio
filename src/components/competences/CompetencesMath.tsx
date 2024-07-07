@@ -20,12 +20,12 @@ const CompetencesMath: React.FC = () => {
         <div className="domain">
           <h2>Algorithmes d'IA</h2>
           <ul>
-            <li>Data Assimilation</li>
             <li>Arbre de prédiction</li>
-            <li>Random Forest</li>
-            <li>Neural Network</li>
             <li>Convolutional Neural Network</li>
+            <li>Data Assimilation</li>
             <li>Generative Adversarial Network</li>
+            <li>Neural Network</li>
+            <li>Random Forest</li>
           </ul>
         </div>
 
@@ -33,12 +33,15 @@ const CompetencesMath: React.FC = () => {
         <div className="domain">
           <h2>Outils d'IA</h2>
           <ul>
+            <li>CoreNLP</li>
+            <li>Google colab</li>
+            <li>Jupyter</li>
+            <li>Pandas</li>
             <li>Pyspark</li>
             <li>Scipy</li>
+            <li>Spark</li>
+            <li>SparkNLP</li>
             <li>TensorFlow</li>
-            <li>Pandas</li>
-            <li>Jupyter</li>
-            <li>Google colab</li>
         </ul>
         </div>
 

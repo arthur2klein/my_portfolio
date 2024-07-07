@@ -11,19 +11,10 @@ const CompetencesMéthodes: React.FC = () => {
         <div className="domain">
           <h2>Pratiques</h2>
           <ul>
-            <li>Scrum</li>
-            <li>Diagrammes UML</li>
             <li>Design patterns</li>
-          </ul>
-        </div>
-
-        <div className="domain">
-          <h2>TDD</h2>
-          <ul>
-            <li>Junit</li>
-            <li>pytest</li>
-            <li>cargo</li>
-            <li>jest</li>
+            <li>Diagrammes UML</li>
+            <li>Scrum</li>
+            <li>TDD</li>
           </ul>
         </div>
 

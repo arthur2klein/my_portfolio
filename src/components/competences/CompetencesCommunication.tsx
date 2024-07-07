@@ -9,9 +9,9 @@ const CompetencesCommunication: React.FC = () => {
         <div className="domain">
           <h2>Langues</h2>
           <ul>
-            <li>Français</li>
-            <li>Anglais</li>
             <li>Allemand</li>
+            <li>Anglais</li>
+            <li>Français</li>
           </ul>
         </div>
 
@@ -19,8 +19,8 @@ const CompetencesCommunication: React.FC = () => {
           <h2>Réunions</h2>
           <ul>
             <li>Animation de réunion</li>
-            <li>Conduite d'entretien</li>
             <li>Compte rendus de réunion</li>
+            <li>Conduite d'entretien</li>
           </ul>
         </div>
       </div>

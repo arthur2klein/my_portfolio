@@ -26,14 +26,14 @@ const TabMoi: React.FC = () => {
               Je suis <em>KLEIN Arthur</em>, passionné d'informatique depuis
               une formation débutant au lycée (filière S Abibac) à travers les
               cours d'Informatique et Création Numérique, et en CPGE (MP*) à
-              travers les cours générals et de spécialité Informatique. Cet
+              travers les cours généraux et de spécialité Informatique. Cet
               éveil m'a mené à terminer ma fomation à <em>CY-Tech</em> où mon
               intért s'est particulièrement développé pour la création
               de <em>frontends</em>, explorant notamment React et Flutter,
               d'<em>architecture d'application</em> utilisant divers
               technologies de Backend ainsi que github actions et Kubernetes,
               et dans l'<em>analyse de données</em> et l'IA avec notamment
-              PySpark et Tensorflow.
+              Spark et Tensorflow.
             </div>
 
             <div className="cadre expe-moi">
@@ -48,8 +48,8 @@ const TabMoi: React.FC = () => {
             </div>
 
             <div className="cadre obje-moi">
-              À la suite de ma formation, je suis en <em>stage de fin
-              d'étude</em> et en recherche de CDI. Mon objectif est de
+              À la suite de ma formation, je suis en stage de fin
+              d'étude et en <em>recherche de CDI</em>. Mon objectif est de
               m'investir pleinement dans des projets stimulants qui mettent en
               lumière mes compétences. Passionné par l'apprentissage continu,
               je souhaite exploiter cette opportunité pour <em>approfondir et

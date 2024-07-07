@@ -9,8 +9,8 @@ const CompetencesWeb: React.FC = () => {
         <div className="domain">
           <h2>Frontend Framework</h2>
           <ul>
-            <li>ReactJS</li>
             <li>Angular</li>
+            <li>ReactJS</li>
             <li>Svelte</li>
           </ul>
         </div>
@@ -18,11 +18,11 @@ const CompetencesWeb: React.FC = () => {
         <div className="domain">
           <h2>Backend Framework</h2>
           <ul>
-            <li>Laravel</li>
-            <li>Symfony</li>
-            <li>Spring</li>
             <li>FastAPI</li>
             <li>Flask</li>
+            <li>Laravel</li>
+            <li>Spring</li>
+            <li>Symfony</li>
           </ul>
         </div>
 

@@ -11,33 +11,35 @@ const CompetencesLanguages: React.FC = () => {
         <div className="domain">
           <h2>Maîtrise élevée</h2>
           <ul>
-            <li>Python</li>
+            <li>Bash</li>
+            <li>Java</li>
             <li>Javascript</li>
-            <li>Typescript</li>
             <li>PHP</li>
-            <li>Dart</li>
-            <li>Commandes UNIX</li>
+            <li>Python</li>
+            <li>Scala</li>
+            <li>Typescript</li>
           </ul>
         </div>
 
         <div className="domain">
           <h2>Compétences Intermédiaires</h2>
           <ul>
-            <li>C</li>
-            <li>Java</li>
-            <li>Kotlin</li>
-            <li>C++</li>
-            <li>Rust</li>
             <li>Assembleur</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>Dart</li>
+            <li>Kotlin</li>
+            <li>Rust</li>
           </ul>
         </div>
 
         <div className="domain">
           <h2>Compétences basiques</h2>
           <ul>
+            <li>Go</li>
             <li>OCaml</li>
-            <li>R</li>
             <li>Prolog</li>
+            <li>R</li>
           </ul>
         </div>
 

@@ -10,9 +10,9 @@ const CompetencesMobile: React.FC = () => {
           <h2>Framework</h2>
           <ul>
             <li>Android framework with Kotlin</li>
-            <li>React Native</li>
-            <li>Ionic</li>
             <li>Flutter and Dart</li>
+            <li>Ionic</li>
+            <li>React Native</li>
           </ul>
         </div>
       </div>
