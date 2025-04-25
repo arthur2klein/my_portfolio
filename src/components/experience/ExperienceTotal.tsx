@@ -1,25 +1,20 @@
-import Experience from './Experience';
+import Experience from "./Experience";
 
 const ExperienceTotal: React.FC = () => {
-  return (
-    <Experience
-      fonction="Stagiaire, Adaptation d'un programme Python"
-      lieu="TotalEnergies, Pau, France"
-      date="Juillet 2023 - Septembre 2023"
-      description={[
-        "Correction d'erreurs dans un programme python de prédiction",
-        "Réparation du dépôt git du projet",
-        "Adaptation du prgramme au outils préférés par TotalEnergies",
-        "Début d'interprétation",
-      ]}
-      competences={[
-        "Python",
-        "Data Assimilation",
-        "Git",
-      ]}
-    />
-  );
+    return (
+        <Experience
+            fonction="Intern, Adaptation of a Python software"
+            lieu="TotalEnergies, Pau, France"
+            date="July 2023 - September 2023"
+            description={[
+                "Error Correction in a Data Assimilation program",
+                "Several changes to the project architecture",
+                "Adaptation to TotalEnergies's tools",
+                "Small results analysis",
+            ]}
+            competences={["Python", "Data Assimilation", "Git"]}
+        />
+    );
 };
 
 export default ExperienceTotal;
-

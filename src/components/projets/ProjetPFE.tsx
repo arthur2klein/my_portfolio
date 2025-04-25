@@ -1,25 +1,19 @@
-import Projet from './Projet';
+import Projet from "./Projet";
 
 const ProjetPFE: React.FC = () => {
-  return (
-    <Projet
-      nom="Projet de Fin d'Étude: Messagerie instantannée"
-      contexte="Cy-Tech"
-      date="Janvier 2024 - Mars 2024"
-      description={[
-          "Création d'une application de messagerie en Python et React",
-          "Mise en place de mesures pour la sécurité de l'application",
-      ]}
-      competences={[
-          "Python",
-          "FastAPI",
-          "React",
-          "Cybersécurité",
-          "PostgreSQL",
-      ]}
-      link="https://github.com/arthur2klein/pfe_messagerie"
-    />
-  );
+    return (
+        <Projet
+            nom="Final year project: Secured Messaging App"
+            contexte="Cy-Tech"
+            date="January 2024 - March 2024"
+            description={[
+                "Creation of a secured messaging app in React and Python",
+                "Implementation of measures for application security",
+            ]}
+            competences={["Python", "FastAPI", "React", "Cybersecurity", "PostgreSQL"]}
+            link=""
+        />
+    );
 };
 
 export default ProjetPFE;

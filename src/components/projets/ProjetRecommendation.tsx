@@ -1,28 +1,21 @@
-import Projet from './Projet';
+import Projet from "./Projet";
 
 const ProjetRecommendations: React.FC = () => {
-  return (
-    <Projet
-      nom="Recommendation de films"
-      contexte="Cy-Tech"
-      date="Février 2024 - Mars 2024"
-      description={[
-          "Création d'un site de recommendation de films pour un groupe d'utilisateur",
-          "Création d'une api en FastAPI",
-          "Création d'un moteur de recommendations",
-          "Création d'un frontend Flutter",
-      ]}
-      competences={[
-          "Flutter",
-          "Dart",
-          "Python",
-          "FastAPI",
-          "Postgresql",
-      ]}
-      link="https://github.com/arthur2klein/ProjetSuggestionFilms"
-    />
-  );
+    return (
+        <Projet
+            nom="Movie recommendation"
+            contexte="Cy-Tech"
+            date="February 2024 - March 2024"
+            description={[
+                "Creation of an app to recommend movies to a group of user",
+                "Creation of a FastAPI backend",
+                "Creation of a recommendation engine",
+                "Creation of a Flutter frontend",
+            ]}
+            competences={["Flutter", "Dart", "Python", "FastAPI", "Postgresql"]}
+            link="https://github.com/arthur2klein/ProjetSuggestionFilms"
+        />
+    );
 };
 
 export default ProjetRecommendations;
-

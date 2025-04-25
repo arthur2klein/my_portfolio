@@ -1,21 +1,18 @@
-import Experience from './Experience';
+import Experience from "./Experience";
 
 const ExperienceKarnten: React.FC = () => {
-  return (
-    <Experience
-        fonction="Stagiaire, développement mobile"
-        lieu="CISMAT (Carinthia Institute of Smart Materials), Fachhochschule Kärnten, Villach, Autriche"
-        date="Juin 2022 - Août 2022"
-        description={[
-          "Développement d'une application Android pour la visualisation et l'exportation de données",
-          "Développement du programme Java fournissant les données d'un capteur à cette application via Sockets",
-        ]}
-        competences={[
-          "Framework Kotlin pour Android",
-          "Allemand",
-        ]}
-    />
-  );
+    return (
+        <Experience
+            fonction="Intern, mobile development"
+            lieu="CISMAT (Carinthia Institute of Smart Materials), Fachhochschule Kärnten, Villach, Autriche"
+            date="June 2022 - August 2022"
+            description={[
+                "Development of an Android application to view and export data",
+                "Development of a Java program to transmit data from a captor to the app using Sockets",
+            ]}
+            competences={["Kotlin Framework for Android", "German"]}
+        />
+    );
 };
 
 export default ExperienceKarnten;

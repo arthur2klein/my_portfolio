@@ -1,25 +1,21 @@
-import Projet from './Projet';
+import Projet from "./Projet";
 
 const ProjetGBEmulator: React.FC = () => {
-  return (
-    <Projet
-      nom="Émulateur GameBoy en Rust"
-      contexte="Cy-Tech"
-      date="Octobre 2023 - Novembre 2023"
-      description={[
-          "Création d'un émulateur de GameBoy en Rust",
-          "Récupération de la mémoire de cartouches virtuelles",
-          "Traduction en temps réel des OpCodes de la GameBoy",
-          "Lecture de la zone mémoire d'affichage et affichage à l'écran",
-    ]}
-      competences={[
-          "Rust",
-          "Assembleur",
-      ]}
-      link="https://github.com/arthur2klein/GBEmulatorRust"
-    />
-  );
+    return (
+        <Projet
+            nom="GameBoy Emulator in Rust"
+            contexte="Cy-Tech"
+            date="October 2023 - November 2023"
+            description={[
+                "Creation of a GameBoy emulator in Rust",
+                "Recuperation of memory from virtual cartridges",
+                "Real-time translation of OpCodes from this memory",
+                "Reading of the display memory zone",
+            ]}
+            competences={["Rust", "Assembler"]}
+            link="https://github.com/arthur2klein/GBEmulatorRust"
+        />
+    );
 };
 
 export default ProjetGBEmulator;
-
